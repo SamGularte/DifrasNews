@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import RandomNews from "./components/RandomNews";
 import styles from "./layout.module.css";
+import Footer from "./components/Footer";
 
 const trispace = Trispace({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({
             {children}
             <RandomNews />
           </section>
+          <Footer />
         </main>
       </body>
     </html>

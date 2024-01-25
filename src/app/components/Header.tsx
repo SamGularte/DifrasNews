@@ -12,10 +12,10 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className={styles.headerContainer}>
-      <Link href="/" className={styles.LogoBtn}>
-        <div className={styles.headerLogo}>
+      <div className={styles.LogoBtn}>
+        <Link href="/" className={styles.headerLogo}>
           <h2>DIFRAS NEWS</h2>
-        </div>
+        </Link>
         <div onClick={() => setMenuOpen(!menuOpen)}>
           <button className={menuOpen ? styles.btnOpened : styles.btnOpen}>
             <DehazeIcon />
@@ -24,7 +24,7 @@ const Header = () => {
             <CloseIcon />
           </button>
         </div>
-      </Link>
+      </div>
       <div className={menuOpen ? styles.navContainerRes : styles.navContainer}>
         <Navbar />
       </div>

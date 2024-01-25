@@ -1,4 +1,4 @@
-const apikey = "bb212ffeac424f5aa06f9cb4c320b0ae";
+const apikey = "ebef6040e2b04c249aba291f8842a368";
 
 export const getNewsTopHeadlines = async () => {
   const newsData = await fetch(
