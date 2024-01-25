@@ -23,7 +23,7 @@ const Article = ({ data }: { data: news }) => {
             <Tag data={new Date(data?.publishedAt).toDateString()} />
           </div>
 
-          <p>{data?.title}</p>
+          <p className={styles.articleTitle}>{data?.title}</p>
 
           <p className={styles.articleParagraph}>{data?.description}</p>
         </div>
