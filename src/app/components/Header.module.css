@@ -1,0 +1,82 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  background-color: var(--darkBlue);
+  color: var(--white);
+}
+
+.btnClose {
+  display: none;
+}
+
+.btnClosed {
+  display: none;
+}
+
+.btnOpen {
+  display: none;
+}
+
+.btnOpened {
+  display: none;
+}
+
+.headerLogo {
+  color: var(--lightRed);
+}
+
+.navContainer {
+  display: flex;
+}
+
+.navContainerRes {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .navContainer {
+    display: none;
+  }
+
+  .navContainerRes {
+    display: flex;
+  }
+
+  .LogoBtn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .headerContainer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .inputContainer {
+    display: none;
+  }
+
+  .btnOpen {
+    display: block;
+  }
+
+  .btnOpened {
+    display: none;
+  }
+
+  .btnClose {
+    display: block;
+  }
+
+  .btnClosed {
+    display: none;
+  }
+
+  .inputContainerRes {
+    display: block;
+  }
+}

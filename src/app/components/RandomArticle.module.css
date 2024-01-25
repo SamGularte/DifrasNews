@@ -1,0 +1,29 @@
+.RarticleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.RarticleContainer:hover {
+  color: var(--violetBlue);
+}
+
+.RarticleContainerImgcont {
+  position: relative;
+  width: 100%;
+  height: 12.5rem;
+}
+
+.RarticleContainerImg {
+  object-fit: cover;
+}
+
+.RarticleContainertitle {
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding-inline: 0.5rem;
+  padding-bottom: 0.3rem;
+}

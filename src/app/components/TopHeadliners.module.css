@@ -1,0 +1,16 @@
+.TopHeadlinersContainer {
+  max-width: 700px;
+  width: 100%;
+}
+
+.HeadlinerContainer {
+  border-block: 1px solid var(--lightGrey);
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .TopHeadlinersContainer {
+    max-width: 350px;
+    width: 100%;
+  }
+}

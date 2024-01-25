@@ -1,0 +1,12 @@
+.sectionContainer {
+  margin: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .sectionContainer {
+    align-items: center;
+    justify-content: center;
+  }
+}

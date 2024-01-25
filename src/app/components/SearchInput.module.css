@@ -1,0 +1,8 @@
+.searchInput {
+  border-radius: 1rem;
+  padding: 0.4rem 0.8rem;
+  color: var(--darkBlue);
+  border: none;
+  outline: none;
+  margin-right: 0.4rem;
+}

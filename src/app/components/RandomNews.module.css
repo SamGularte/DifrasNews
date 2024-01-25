@@ -1,0 +1,24 @@
+.randomNewsContainer {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+}
+
+.randomNewsContainerTitle {
+  text-align: center;
+  color: var(--violetBlue);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.randomNewsContainer hr {
+  border: 1px solid var(--mediumGrey);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .randomNewsContainer {
+    display: none;
+  }
+}

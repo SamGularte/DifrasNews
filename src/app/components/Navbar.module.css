@@ -1,0 +1,16 @@
+.linksContainer {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.linksContainer a:hover {
+  color: var(--lightGrey);
+}
+
+@media (max-width: 1000px) {
+  .linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
