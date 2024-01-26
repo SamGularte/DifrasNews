@@ -15,14 +15,15 @@ Antes de começar, você precisa ter o Node.js instalado em sua máquina.
 2. Navegue até o diretório do projeto:
 
 3. Instale as dependências do projeto:
+
    O projeto utiliza as seguintes dependências:
-   @emotion/react: ^11.11.3
-   @emotion/styled: ^11.11.0
-   @mui/icons-material: ^5.15.6
-   @mui/material: ^5.15.6
-   next: 14.1.0
-   react: ^18
-   react-dom: ^18
+   -@emotion/react: ^11.11.3
+   -@emotion/styled: ^11.11.0
+   -@mui/icons-material: ^5.15.6
+   -@mui/material: ^5.15.6
+   -next: 14.1.0
+   -react: ^18
+   -react-dom: ^18
 
 ## Executando o Projeto Localmente
 
