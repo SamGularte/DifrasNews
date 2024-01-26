@@ -10,7 +10,15 @@ Antes de começar, você precisa ter o Node.js instalado em sua máquina.
 
 ## Instalação
 
-1. Clone o repositório para a sua máquina local:
+1.  Clone o repositório para a sua máquina local:
+
+<pre>
+<code>
+```sh
+git clone https://github.com/SamGularte/DifrasNews.git
+```
+</code>
+</pre>
 
 2. Navegue até o diretório do projeto:
 
