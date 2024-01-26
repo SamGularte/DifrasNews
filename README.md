@@ -14,28 +14,58 @@ Antes de começar, você precisa ter o Node.js instalado em sua máquina.
 
 <pre>
 <code>
-```sh
 git clone https://github.com/SamGularte/DifrasNews.git
-```
 </code>
 </pre>
 
 2. Navegue até o diretório do projeto:
 
+<pre>
+<code>
+cd dinews
+</code>
+</pre>
+
 3. Instale as dependências do projeto:
 
-   O projeto utiliza as seguintes dependências:
+<pre>
+<code>
+npm install
+</code>
+</pre>
 
-   - @emotion/react: ^11.11.3
-   - @emotion/styled: ^11.11.0
-   - @mui/icons-material: ^5.15.6
-   - @mui/material: ^5.15.6
-   - next: 14.1.0
-   - react: ^18
-   - react-dom: ^18
+ou
+
+<pre>
+<code>
+yarn install
+</code>
+</pre>
+
+O projeto utiliza as seguintes dependências:
+
+- @emotion/react: ^11.11.3
+- @emotion/styled: ^11.11.0
+- @mui/icons-material: ^5.15.6
+- @mui/material: ^5.15.6
+- next: 14.1.0
+- react: ^18
+- react-dom: ^18
 
 ## Executando o Projeto Localmente
 
 Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
 
+<pre>
+<code>
 npm run dev
+</code>
+</pre>
+
+ou
+
+<pre>
+<code>
+yarn dev
+</code>
+</pre>
